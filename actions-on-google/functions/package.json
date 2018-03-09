@@ -1,0 +1,21 @@
+{
+  "name": "dialogflowFirebasFulfillment",
+  "description": "Dialogflow Fulfillment Library quick start sample",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "~6.0"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:actionsOnGoogleV2Lib",
+    "deploy": "firebase deploy --only functions:actionsOnGoogleV2Lib"
+  },
+  "dependencies": {
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7",
+    "actions-on-google": "2.0.0-alpha.2",
+    "request": "^2.83.0"
+  }
+}
